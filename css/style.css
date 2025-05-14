@@ -69,6 +69,90 @@ body {
       }
     }
   }
+  .social {
+    padding-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    .container_social {
+      display: flex;
+      justify-content: space-between;
+      .facebook {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: blue;
+
+        .hide_lg {
+          display: none;
+        }
+      }
+      .instagram {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: palevioletred;
+
+        .hide_lg {
+          display: none;
+        }
+      }
+      .twitter {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: lightskyblue;
+
+        .hide_lg {
+          display: none;
+        }
+      }
+      .pinterest {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: red;
+
+        .hide_lg {
+          display: none;
+        }
+      }
+      .youtube {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: red;
+
+        .hide_lg {
+          display: none;
+        }
+      }
+    }
+  }
+  .banner {
+    .hide_lg {
+      display: none;
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -101,6 +185,46 @@ body {
               padding: 10px 0px;
             }
           }
+        }
+      }
+    }
+    .social {
+      .container_social {
+        gap: 20px;
+        .facebook {
+          width: 150px;
+          border-radius: 30px;
+        }
+        .facebook {
+          width: 150px;
+          border-radius: 30px;
+        }
+        .twitter {
+          width: 150px;
+          border-radius: 30px;
+        }
+        .instagram {
+          width: 150px;
+          border-radius: 30px;
+        }
+        .pinterest {
+          width: 150px;
+          border-radius: 30px;
+        }
+        .youtube {
+          width: 150px;
+          border-radius: 30px;
+        }
+      }
+    }
+    .banner {
+      .hide_lg {
+        display: inline-block;
+      }
+      .img_banner {
+        padding: 20px;
+        img {
+          width: 100%;
         }
       }
     }
