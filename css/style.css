@@ -158,6 +158,14 @@ body {
     width: 90%;
     margin: 0 auto;
     .title_presentation {
+      font-size: 36px;
+      font-weight: 400;
+      padding-bottom: 20px;
+    }
+    hr {
+      width: 18%;
+      color: orange;
+      margin-bottom: 20px;
     }
     .img_presentation {
       display: flex;
@@ -171,6 +179,42 @@ body {
     }
     .text_presentation {
       line-height: 2rem;
+    }
+  }
+}
+
+.site_footer {
+  margin-top: 20px;
+  height: 200px;
+  background-color: #7c69a4;
+  .nav_footer {
+    width: 90%;
+    margin: 0 auto;
+    .info_footer {
+      padding-top: 20px;
+      color: white;
+      font-weight: 700;
+      text-align: center;
+    }
+    .indirizzo {
+      padding-top: 10px;
+      color: white;
+      text-align: center;
+    }
+    .nav_list_footer {
+      padding-top: 20px;
+      ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        li {
+          list-style: none;
+          a {
+            color: white;
+          }
+        }
+      }
     }
   }
 }
