@@ -322,16 +322,18 @@ body {
 @media screen and (min-width: 992px) {
   .site_main {
     .container_card {
+      width: 80%;
       .card {
         .title_card {
           font-size: 40px;
         }
+        .container_card_int {
+          display: flex;
+        }
         .img_card {
           width: calc(100% / 12 * 6);
-          float: left;
         }
         .list_card {
-          float: left;
           width: calc(100% / 12 * 6);
           .col-lg-4 {
             width: 100%;
@@ -345,7 +347,48 @@ body {
         }
       }
     }
+    .social {
+      width: 80%;
+      .container_social {
+        .facebook {
+          .hide_lg {
+            display: inline;
+            color: black;
+            padding-left: 5px;
+          }
+        }
+        .instagram {
+          .hide_lg {
+            display: inline;
+            color: black;
+            padding-left: 5px;
+          }
+        }
+        .youtube {
+          .hide_lg {
+            display: inline;
+            color: black;
+            padding-left: 5px;
+          }
+        }
+        .pinterest {
+          .hide_lg {
+            display: inline;
+            color: black;
+            padding-left: 5px;
+          }
+        }
+        .twitter {
+          .hide_lg {
+            display: inline;
+            color: black;
+            padding-left: 5px;
+          }
+        }
+      }
+    }
     .banner {
+      width: 80%;
       .hide_lg {
         display: inline-block;
       }
@@ -358,13 +401,17 @@ body {
       }
     }
     .presentation {
+      width: 80%;
       .title_presentation {
       }
       .img_presentation {
         display: inline-block;
+        .container_presentation {
+          width: 100%;
+        }
       }
       .img_presentation img {
-        width: 59%;
+        width: 30%;
         margin: 20px 10px 10px 0px;
         float: left;
       }
