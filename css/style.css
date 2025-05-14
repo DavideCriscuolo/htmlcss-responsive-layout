@@ -3,6 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --color-title-header: #ff9614;
+}
+
 body {
-  background-color: blue;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  background-color: #f6f5f3;
+}
+
+.site_header {
+  background-color: white;
+  height: 90px;
+  .container_header {
+    .title_site_header {
+      text-align: center;
+      font-family: "Nerko One", cursive;
+      font-size: 30px;
+      color: var(--color-title-header);
+      text-shadow: 2px 1px rgb(164, 164, 164);
+    }
+  }
 }
